@@ -4,7 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/layout"
+    android:background="@drawable/animation_list"
     tools:context="com.example.sidkathuria14.sunriseanimation.MainActivity">
+
+
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/brown_mountains"
+        android:id="@+id/light_mountain"
+        />
+
     <RelativeLayout
         android:id="@+id/yellow_background"
         android:layout_width="match_parent"
@@ -18,16 +28,6 @@
         android:background="@drawable/mountains"
         android:id="@+id/mountain_layout"
         />
-
-    <!--<RelativeLayout android:layout_width="match_parent"-->
-    <!--android:layout_height="match_parent"-->
-    <!--android:background="@drawable/dark_mountains"-->
-    <!--android:id="@+id/light_mountain"-->
-    <!--/>-->
-
-
-
-
 
 
     <ImageView

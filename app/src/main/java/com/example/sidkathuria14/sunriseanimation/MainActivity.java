@@ -19,18 +19,22 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         image = (ImageView)findViewById(R.id.img_sun);
-//        layout = (RelativeLayout)findViewById(R.id.);
+        layout = (RelativeLayout)findViewById(R.id.layout);
         mountain_layout = (RelativeLayout)findViewById(R.id.mountain_layout);
-//        light_mountain = (RelativeLayout)findViewById(R.id.light_mountain);
+        light_mountain = (RelativeLayout)findViewById(R.id.light_mountain);
         yellow_background = (RelativeLayout)findViewById(R.id.yellow_background) ;
 
 
-//        fadeIn = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.fadein);
-//          light_mountain.startAnimation(fadeIn);
-
         fadeOut = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.fadeout);
-          mountain_layout.startAnimation(fadeOut);
-        fadeOut.setFillAfter(true);
+       light_mountain.startAnimation(fadeOut);
+//        fadeOut.setFillAfter(true);
+
+
+        fadeIn = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.fadein);
+         mountain_layout.startAnimation(fadeIn);
+//        fadeIn.setFillAfter(true);
+
+
 
         up = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.up_anim);
         image.startAnimation(up);
