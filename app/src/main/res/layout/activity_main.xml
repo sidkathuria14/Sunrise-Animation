@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sidkathuria14.sunriseanimation.MainActivity">
+    <RelativeLayout
+        android:id="@+id/yellow_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/sunny_background"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/mountains"
+        android:id="@+id/mountain_layout"
+        />
+
+    <!--<RelativeLayout android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="@drawable/dark_mountains"-->
+    <!--android:id="@+id/light_mountain"-->
+    <!--/>-->
+
+
+
+
+
+
+    <ImageView
+        android:id="@+id/img_sun"
+        android:src ="@drawable/sun"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="500dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+</RelativeLayout>
